@@ -238,6 +238,7 @@ font-family: 'Muli', sans-serif;
 
  .softwareskills:hover {
 	content: url("../images/hoversoftwareskills.png");
+	cursor:pointer;
 }
 
 .cubeicons {
