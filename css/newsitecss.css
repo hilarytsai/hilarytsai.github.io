@@ -1,5 +1,7 @@
 .navbarimage {
-	margin-right:0px;
+	
+	padding-bottom: -40px;
+	padding-right: 90px;
 }
 .container2 {
 	margin-top: -110px;
@@ -9,16 +11,17 @@
 	background-image: url("../images/htnewhover2.png");
 }
 .nav-item {
-	padding-right:23px;
+	padding-right:30px;
 }
 
 .nav-link {
-	font-size:30px;
+	font-size:33px;
+	padding-top: 20px;
    
     font-family: 'Life Savers';font-size: 22px;
 }
 
-}
+
 .navbarimage { cursor: pointer;
  }
  
@@ -33,7 +36,7 @@
 
  .aboutme {
  	margin:0 auto;
- 	padding-top:100px;
+ 	padding-top:150px;
  	font-size:27px;
  	color:#fff;
  	margin-left:270px;
@@ -61,7 +64,7 @@ font-family: 'Muli', sans-serif;
 
 .magic {
 	text-align:center;
-	padding-bottom: 30px;
+	padding-bottom: 80px;
 	margin-top: -200px;
 	padding-left:294px;
 
@@ -98,9 +101,13 @@ font-family: 'Muli', sans-serif;
 
 .indexbg {
 	margin-left: -124px;
-	margin-top:-40px;
+	margin-top:-90px;
 	height: 40%;
-	width:50%;
+	width:80%;
+	padding-top:100px;
+	z-index: 0;
+	position: absolute;
+
 
 }
 	
@@ -135,11 +142,6 @@ font-family: 'Muli', sans-serif;
     padding-bottom: 58%;   
 }
 
-.magiccarousel {
-
-	padding-top: -300px;
-	padding-right:px;
-}
 
 .row {
 	padding-left: 100px;
@@ -174,16 +176,16 @@ font-family: 'Muli', sans-serif;
 }
 
 .skillicon {
-	margin-right: 42px;
-	margin-left: 42px;
+	margin-right: 44px;
+	margin-left: 44px;
 }
 
 .skills {
 
 	margin-right: 100px;
-	margin-left: 100px;
+	margin-left: 80px;
     padding-left: 180px;
-    padding-top: ;
+   
     
 }
 
@@ -243,9 +245,9 @@ font-family: 'Muli', sans-serif;
 
 .cubeicons {
 
-	margin-left: 240px;
-	padding-bottom: 60px;
-	padding-top: 7px;
+	margin-left: 220px;
+	padding-bottom: 50px;
+	padding-top: 55px;
 }
 
 .htmlcss:hover {
@@ -268,8 +270,8 @@ font-family: 'Muli', sans-serif;
 	cursor:pointer;
 }
 .cubeicon {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left:45px;
+	padding-right: 45px;
 }
 
 .recentwork:hover {
@@ -360,11 +362,90 @@ div.row {
 	padding-top: -20px;
 }
 .indexbg {
-	padding-left: 110px;
-	margin-top: -66px;
+	padding-left: 130px;
+	margin-top: -26px;
 }
 
 .divider {
 	margin-left: 210px;
 	padding-top: 20px;
 }
+
+.webm {
+	background:transparent;
+}
+.clickexpand {
+	font-size: 23px;
+	color:#fff;
+	text-align: center;
+	margin-top: -70px;
+	opacity: 0.4;
+	padding-bottom:50px;
+	font-family: 'Life Savers';
+	padding-right: 8px;
+}
+
+.motiondesign{
+	font-size: 23px;
+	color:#fff;
+	padding-right: 60px;
+text-align: center;
+
+	margin-top: -70px;
+	opacity: 0.4;
+	padding-bottom:50px;
+	font-family: 'Life Savers';
+	padding-right: 8px;
+}
+
+.appblurb {
+	font-family: 'Life Savers';
+	font-size: 20px;
+	color:#fff;
+	letter-spacing: 0.6px;
+}
+
+.secondmographrow {
+	padding-bottom: 100px;
+
+}
+
+.myfooter {
+	color:#fff;
+	
+	z-index: 0;
+	position: absolute;
+	margin-top: 680px;
+	padding-left: 700px;
+	opacity: 0.4;
+
+}
+
+.about {
+	
+	padding-top: 270px;
+	padding-left: 630px;
+	padding-top: 240px;
+	z-index: 0;
+	position: absolute;
+
+}
+
+.about:hover {
+	content: url("../images/finalabouthovered.png");
+	cursor:pointer;
+
+}
+
+.particlesbg{
+	min-width:100%;
+	min-height:200%;
+	z-index: -3;
+	position: absolute;
+}
+
+	.apptitle{
+color:#0099FF;
+text-decoration: underline;
+font-weight: bold;
+	}
