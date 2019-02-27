@@ -439,7 +439,7 @@ text-align: center;
 
 .particlesbg{
 	min-width:100%;
-	min-height:200%;
+	min-height:230%;
 	z-index: -3;
 	position: absolute;
 }
@@ -449,3 +449,11 @@ color:#0099FF;
 text-decoration: underline;
 font-weight: bold;
 	}
+
+.aboutme {
+	font-family: 'Life Savers';
+	font-size: 28px;
+	color:#fff;
+	letter-spacing: 0.6px;
+	text-shadow:1px 1px #5F7D8E;
+}
