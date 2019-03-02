@@ -310,7 +310,7 @@ body.scrollable {
 		position: absolute;
 		right: 10px;
 	}
-
+}
 
 
 
@@ -329,6 +329,7 @@ div.row {
 
 
 	
+}
 
 .message {
 	height: 30px
@@ -457,5 +458,4 @@ font-weight: bold;
 	color:#fff;
 	letter-spacing: 0.6px;
 	text-shadow:1px 1px #5F7D8E;
-	position:absolute;
 }
