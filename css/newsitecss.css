@@ -162,6 +162,8 @@ font-family: 'Muli', sans-serif;
 	position: absolute;
 	z-index:-3;
 	padding-right: 70px;
+	min-width: 100%;
+	min-height: 100%;
 
 }
 .carousel {
@@ -308,7 +310,7 @@ body.scrollable {
 		position: absolute;
 		right: 10px;
 	}
-}
+
 
 
 
@@ -327,7 +329,6 @@ div.row {
 
 
 	
-}
 
 .message {
 	height: 30px
@@ -424,7 +425,7 @@ text-align: center;
 .about {
 	
 	padding-top: 270px;
-	padding-left: 630px;
+	padding-left: 650px;
 	padding-top: 240px;
 	z-index: 0;
 	position: absolute;
@@ -456,4 +457,5 @@ font-weight: bold;
 	color:#fff;
 	letter-spacing: 0.6px;
 	text-shadow:1px 1px #5F7D8E;
+	position:absolute;
 }
